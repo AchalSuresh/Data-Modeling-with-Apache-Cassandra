@@ -30,7 +30,8 @@ sessionId
 song title
 userId
 
-
+Sample Screenshot:
+![csv file](https://github.com/AchalSuresh/Data-Modeling-with-Apache-Cassandra/blob/master/event_datafile_new.csv)
 ## Part II Data Modeling using Apache Cassandra
 In Apache Cassandra, we model our data based on the queries we will perform. Aggregation like GROUP BY, JOIN are highly discouraged in Cassandra. This is because we shouldn't scan the entire data because it is distributed on multiple nodes. It will slow down our system because sending all of that data from multiple nodes to a single machine will crash it.
 
